@@ -8,6 +8,7 @@ import { faExternalLinkAlt, faChevronLeft, faChevronRight } from '@fortawesome/f
 import neuralNet from '../../assets/images/neural-network.jpeg';
 import examRag from '../../assets/images/exam-rag.png';
 import rfid from '../../assets/images/rfid.webp';
+import consensus from '../../assets/images/consensus.jpeg';
 
 const Projects = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -35,6 +36,31 @@ const Projects = () => {
             github: "https://github.com/harshitar31/exam_rag",
             live: null,
             image: examRag
+        },
+
+        {
+            title: "Consensus – Learning-Aware Generative AI System",
+            description: "A learning-aware generative AI platform leveraging an LLM Council for controlled, curriculum-aligned content generation.",
+            technologies: [
+            "React",
+            "Express.js",
+            "MongoDB",
+            "FastAPI",
+            "LangChain",
+            "SentenceTransformers",
+            "Large Language Models (LLMs)"
+            ],
+            features: [
+                "LLM Council architecture for content verification and reduced hallucinations",
+                "Learning-aware generation ensuring curriculum alignment and pedagogical validity",
+                "Chained LLM workflows using LangChain for controlled reasoning",
+                "Semantic retrieval with SentenceTransformers for context-aware responses",
+                "Scalable full-stack architecture with React, Express, FastAPI, and MongoDB"
+            ],
+              
+            github: "https://github.com/Shyam-Sundar-Raju/Consensus",
+            live: null,
+            image: consensus
         },
 
         {
